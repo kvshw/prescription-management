@@ -33,11 +33,6 @@ const sideBarItems = [
     icon: <FaTablets />,
     name: "Drugs",
   },
-  {
-    id: 3,
-    icon: <IoSettingsSharp />,
-    name: "Settings",
-  },
 ];
 
 function SideBar() {
@@ -59,16 +54,22 @@ function SideBar() {
         <div className="py-4 min-h-[40px] px-4">
           <hr />
         </div>
-        <div id="sidebar-items">
-          {sideBarItems.map((item) => (
-            <div
-              key={item.id}
-              className="sidebar-item py-4 px-4 rounded-lg hover:cursor-pointer hover:bg-gray-200 hover:text-gray-600 flex items-center gap-2"
-            >
-              <span className="">{item.icon}</span>
-              <span>{item.name} </span>
-            </div>
-          ))}
+        <div className="py-4 flex flex-col justify-between h-[86%]">
+          <div id="sidebar-items">
+            {sideBarItems.map((item) => (
+              <div
+                key={item.id}
+                className="sidebar-item py-4 px-4 rounded-lg hover:cursor-pointer hover:bg-gray-200 hover:text-gray-600 flex items-center gap-2"
+              >
+                <span className="">{item.icon}</span>
+                <span>{item.name}</span>
+              </div>
+            ))}
+          </div>
+
+          <div className="py-4 px-4 hover:cursor-pointer hover:bg-gray-200 hover:text-gray-600">
+            <h2>Settings</h2>
+          </div>
         </div>
       </div>
     </div>
