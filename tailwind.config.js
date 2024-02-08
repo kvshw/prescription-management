@@ -12,9 +12,14 @@ export default {
       },
       colors: {
         primary: "#03A48A",
+        primary_dark: "#047562",
         secondary: "#FFCE50",
         light: "#fff",
-        patientdashboard: "#4881F0",
+        patientdashboard_green: "#03A48A",
+        patientdashboard_blue: "#4881F0",
+        patientdashboard_orange: "#FB9F6C",
+        patientdashboard_yellow: "#FFBD11",
+
         font: "#1A2430",
         fontlight: "#fff",
         dashboard: "#292425",
