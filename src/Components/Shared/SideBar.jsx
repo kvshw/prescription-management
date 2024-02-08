@@ -14,7 +14,7 @@ const sideBarItems = [
   {
     id: 0,
     icon: <FaUserDoctor />,
-    name: "Doctor Dashboard",
+    name: "Dashboard",
     path: "/",
   },
   {
@@ -26,8 +26,8 @@ const sideBarItems = [
   {
     id: 2,
     icon: <RiFileHistoryFill />,
-    name: "Patient History",
-    path: "/patient-history",
+    name: "Patients",
+    path: "/patients",
   },
   {
     id: 3,

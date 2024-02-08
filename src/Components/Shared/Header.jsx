@@ -29,7 +29,10 @@ function Header() {
         />
       </div>
       <div className="flex items-center gap-3 mr-2">
-        <button className="text-sm bg-primary px-4 py-2 hover:bg-hovering text-white">
+        <button
+          className="text-sm bg-primary px-4 py-2 hover:bg-hovering text-white"
+          onClick={() => navigate("/prescriptions")}
+        >
           + Prescription
         </button>
         <Popover className="relative">

@@ -13,7 +13,10 @@ export default {
       colors: {
         primary: "#03A48A",
         secondary: "#FFCE50",
+        light: "#fff",
+        patientdashboard: "#4881F0",
         font: "#1A2430",
+        fontlight: "#fff",
         dashboard: "#292425",
         error: "#f74f76",
         hovering: "#018a73",
