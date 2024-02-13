@@ -50,7 +50,9 @@ function DashboardStats() {
               </Link>
             </div>
             <div className="flex justify-center items-center">
-              <h1 className={`${item.textcolor}`}>{item.statnumber}</h1>
+              <h1 className={`${item.textcolor} text-7xl`}>
+                {item.statnumber}
+              </h1>
             </div>
           </div>
         </div>

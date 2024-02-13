@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
     "@headlessui/react": "^1.7.18",
+    "@mui/material": "^5.15.10",
     "classnames": "^2.5.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.3",
